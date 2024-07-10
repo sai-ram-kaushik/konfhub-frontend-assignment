@@ -8,6 +8,7 @@ import {
   FaPhone,
 } from "react-icons/fa6";
 import { TbWorldWww } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 const EventDetails = ({ eventDetails }) => {
   return (
@@ -46,9 +47,11 @@ const EventDetails = ({ eventDetails }) => {
         </h3>
       </div>
 
-      <button className="w-full mt-5 p-2 bg-primary text-background rounded-lg text-xl">
-        Buy Now
-      </button>
+      <Link to="/checkout">
+        <button className="w-full mt-5 p-2 bg-primary text-background rounded-lg text-xl">
+          Buy Now
+        </button>
+      </Link>
 
       <button className="w-full mt-5 p-2 bg-background border border-primary rounded-lg shadow-lg">
         Official Website
