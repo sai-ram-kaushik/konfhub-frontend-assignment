@@ -53,9 +53,11 @@ const EventDetails = ({ eventDetails }) => {
         </button>
       </Link>
 
-      <button className="w-full mt-5 p-2 bg-background border border-primary rounded-lg shadow-lg">
-        Official Website
-      </button>
+      <a href={eventDetails.event_website} target="_blank">
+        <button className="w-full mt-5 p-2 bg-background border border-primary rounded-lg shadow-lg">
+          Official Website
+        </button>
+      </a>
 
       <div className="mt-5">
         <h2 className="text-2xl font-bold">HOSTED BY</h2>
@@ -78,10 +80,18 @@ const EventDetails = ({ eventDetails }) => {
 
           <h3 className="text-2xl font-bold">Contact Us On</h3>
           <div className="flex items-center gap-3 text-2xl">
-            <FaFacebookF className=" bg-primary text-background rounded-full" />
-            <FaXTwitter className=" bg-primary text-background rounded-full" />
-            <FaLinkedinIn className=" bg-primary text-background rounded-full" />
-            <TbWorldWww className=" bg-primary text-background rounded-full" />
+            <a href={eventDetails.organizer_facebook_url} target="_blank">
+              <FaFacebookF />
+            </a>
+            <a href={eventDetails.organizer_twitter_url} target="_blank">
+              <FaXTwitter />
+            </a>
+            <a href={eventDetails.organizer_linkedin_url} target="_blank">
+              <FaLinkedinIn />
+            </a>
+            <a href={eventDetails.organiser_website} target="_blank">
+              <TbWorldWww />
+            </a>
           </div>
         </div>
       </div>
