@@ -1,0 +1,19 @@
+{
+  "workshops": [
+    {
+      "name": "How to make more money",
+      "date": "Jun 11th, 2024 at 10:00 AM (IST)",
+      "imageUrl": "/workshop1.webp"
+    },
+    {
+      "name": "How to fight crime",
+      "date": "Jun 1st, 2034 at 10:00 AM (IST)",
+      "imageUrl": "/workshop2.webp"
+    },
+    {
+      "name": "This is a workshop connected to a ticket",
+      "date": "Jun 11th, 2024 at 10:00 AM (IST)",
+      "imageUrl": "/workshop3.webp"
+    }
+  ]
+}

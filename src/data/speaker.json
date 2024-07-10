@@ -1,0 +1,16 @@
+{
+  "speakers": [
+    {
+      "name": "Bruce Wayne",
+      "designation": "Chairman",
+      "company": "Wayne Enterprises",
+      "imageUrl": "bruce.jpg"
+    },
+    {
+      "name": "Dark Knight",
+      "designation": "Batman",
+      "company": "Gotham",
+      "imageUrl": "dark.jpg"
+    }
+  ]
+}
